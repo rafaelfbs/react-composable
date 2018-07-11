@@ -1,0 +1,40 @@
+{
+  "name": "react-component-balloon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^23.1.5",
+    "@types/react-test-renderer": "^16.0.1",
+    "jest": "^23.4.0",
+    "react-test-renderer": "^16.4.1",
+    "ts-jest": "^23.0.0",
+    "ts-loader": "^4.4.2",
+    "typescript": "^2.9.2",
+    "webpack": "^4.15.1"
+  },
+  "dependencies": {
+    "@types/react": "^16.4.6",
+    "react": "^16.4.1"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
+  }
+}

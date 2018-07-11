@@ -1,0 +1,664 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Balloon /> When balloon is positioned on bottom renders correctly with default props 1`] = `
+<div
+  className="rc-balloon"
+  style={
+    Object {
+      "backgroundColor": "black",
+      "border": "1px solid black",
+      "color": "white",
+      "padding": "5px",
+      "position": "relative",
+    }
+  }
+>
+  <span
+    className="rc-balloon-arrow"
+    style={
+      Object {
+        "bottom": "100%",
+        "height": "10px",
+        "left": "calc(50% - 10px)",
+        "position": "absolute",
+        "width": "20px",
+        "zIndex": 10,
+      }
+    }
+  >
+    <svg
+      height={10}
+      style={
+        Object {
+          "verticalAlign": "top",
+        }
+      }
+      width={20}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <polygon
+        fill="black"
+        points="0,10 10,0 20,10"
+      />
+      <polyline
+        fill="transparent"
+        points="0,10 10,0 20,10"
+        stroke="black"
+      />
+    </svg>
+  </span>
+  My balloon message
+</div>
+`;
+
+exports[`<Balloon /> When balloon is positioned on bottom renders correctly with offset at end 1`] = `
+<div
+  className="rc-balloon"
+  style={
+    Object {
+      "backgroundColor": "black",
+      "border": "1px solid black",
+      "color": "white",
+      "padding": "5px",
+      "position": "relative",
+    }
+  }
+>
+  <span
+    className="rc-balloon-arrow"
+    style={
+      Object {
+        "bottom": "100%",
+        "height": "10px",
+        "left": "calc(100% - 10px)",
+        "position": "absolute",
+        "width": "20px",
+        "zIndex": 10,
+      }
+    }
+  >
+    <svg
+      height={10}
+      style={
+        Object {
+          "verticalAlign": "top",
+        }
+      }
+      width={20}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <polygon
+        fill="black"
+        points="0,10 10,0 20,10"
+      />
+      <polyline
+        fill="transparent"
+        points="0,10 10,0 20,10"
+        stroke="black"
+      />
+    </svg>
+  </span>
+  My balloon message
+</div>
+`;
+
+exports[`<Balloon /> When balloon is positioned on bottom renders correctly with offset at start 1`] = `
+<div
+  className="rc-balloon"
+  style={
+    Object {
+      "backgroundColor": "black",
+      "border": "1px solid black",
+      "color": "white",
+      "padding": "5px",
+      "position": "relative",
+    }
+  }
+>
+  <span
+    className="rc-balloon-arrow"
+    style={
+      Object {
+        "bottom": "100%",
+        "height": "10px",
+        "left": "calc(0 - 10px)",
+        "position": "absolute",
+        "width": "20px",
+        "zIndex": 10,
+      }
+    }
+  >
+    <svg
+      height={10}
+      style={
+        Object {
+          "verticalAlign": "top",
+        }
+      }
+      width={20}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <polygon
+        fill="black"
+        points="0,10 10,0 20,10"
+      />
+      <polyline
+        fill="transparent"
+        points="0,10 10,0 20,10"
+        stroke="black"
+      />
+    </svg>
+  </span>
+  My balloon message
+</div>
+`;
+
+exports[`<Balloon /> When balloon is positioned on left renders correctly with default props 1`] = `
+<div
+  className="rc-balloon"
+  style={
+    Object {
+      "backgroundColor": "black",
+      "border": "1px solid black",
+      "color": "white",
+      "padding": "5px",
+      "position": "relative",
+    }
+  }
+>
+  <span
+    className="rc-balloon-arrow"
+    style={
+      Object {
+        "height": "20px",
+        "left": "100%",
+        "position": "absolute",
+        "top": "calc(50% - 10px)",
+        "width": "10px",
+        "zIndex": 10,
+      }
+    }
+  >
+    <svg
+      height={20}
+      style={
+        Object {
+          "verticalAlign": "top",
+        }
+      }
+      width={10}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <polygon
+        fill="black"
+        points="0,20 10,10 0,0"
+      />
+      <polyline
+        fill="transparent"
+        points="0,20 10,10 0,0"
+        stroke="black"
+      />
+    </svg>
+  </span>
+  My balloon message
+</div>
+`;
+
+exports[`<Balloon /> When balloon is positioned on left renders correctly with offset at end 1`] = `
+<div
+  className="rc-balloon"
+  style={
+    Object {
+      "backgroundColor": "black",
+      "border": "1px solid black",
+      "color": "white",
+      "padding": "5px",
+      "position": "relative",
+    }
+  }
+>
+  <span
+    className="rc-balloon-arrow"
+    style={
+      Object {
+        "height": "20px",
+        "position": "absolute",
+        "right": "100%",
+        "top": "calc(100% - 10px)",
+        "width": "10px",
+        "zIndex": 10,
+      }
+    }
+  >
+    <svg
+      height={20}
+      style={
+        Object {
+          "verticalAlign": "top",
+        }
+      }
+      width={10}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <polygon
+        fill="black"
+        points="10,20 0,10 10,0"
+      />
+      <polyline
+        fill="transparent"
+        points="10,20 0,10 10,0"
+        stroke="black"
+      />
+    </svg>
+  </span>
+  My balloon message
+</div>
+`;
+
+exports[`<Balloon /> When balloon is positioned on left renders correctly with offset at start 1`] = `
+<div
+  className="rc-balloon"
+  style={
+    Object {
+      "backgroundColor": "black",
+      "border": "1px solid black",
+      "color": "white",
+      "padding": "5px",
+      "position": "relative",
+    }
+  }
+>
+  <span
+    className="rc-balloon-arrow"
+    style={
+      Object {
+        "height": "20px",
+        "left": "100%",
+        "position": "absolute",
+        "top": "calc(0 - 10px)",
+        "width": "10px",
+        "zIndex": 10,
+      }
+    }
+  >
+    <svg
+      height={20}
+      style={
+        Object {
+          "verticalAlign": "top",
+        }
+      }
+      width={10}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <polygon
+        fill="black"
+        points="0,20 10,10 0,0"
+      />
+      <polyline
+        fill="transparent"
+        points="0,20 10,10 0,0"
+        stroke="black"
+      />
+    </svg>
+  </span>
+  My balloon message
+</div>
+`;
+
+exports[`<Balloon /> When balloon is positioned on right renders correctly with default props 1`] = `
+<div
+  className="rc-balloon"
+  style={
+    Object {
+      "backgroundColor": "black",
+      "border": "1px solid black",
+      "color": "white",
+      "padding": "5px",
+      "position": "relative",
+    }
+  }
+>
+  <span
+    className="rc-balloon-arrow"
+    style={
+      Object {
+        "height": "20px",
+        "position": "absolute",
+        "right": "100%",
+        "top": "calc(50% - 10px)",
+        "width": "10px",
+        "zIndex": 10,
+      }
+    }
+  >
+    <svg
+      height={20}
+      style={
+        Object {
+          "verticalAlign": "top",
+        }
+      }
+      width={10}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <polygon
+        fill="black"
+        points="10,20 0,10 10,0"
+      />
+      <polyline
+        fill="transparent"
+        points="10,20 0,10 10,0"
+        stroke="black"
+      />
+    </svg>
+  </span>
+  My balloon message
+</div>
+`;
+
+exports[`<Balloon /> When balloon is positioned on right renders correctly with offset at end 1`] = `
+<div
+  className="rc-balloon"
+  style={
+    Object {
+      "backgroundColor": "black",
+      "border": "1px solid black",
+      "color": "white",
+      "padding": "5px",
+      "position": "relative",
+    }
+  }
+>
+  <span
+    className="rc-balloon-arrow"
+    style={
+      Object {
+        "height": "20px",
+        "position": "absolute",
+        "right": "100%",
+        "top": "calc(100% - 10px)",
+        "width": "10px",
+        "zIndex": 10,
+      }
+    }
+  >
+    <svg
+      height={20}
+      style={
+        Object {
+          "verticalAlign": "top",
+        }
+      }
+      width={10}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <polygon
+        fill="black"
+        points="10,20 0,10 10,0"
+      />
+      <polyline
+        fill="transparent"
+        points="10,20 0,10 10,0"
+        stroke="black"
+      />
+    </svg>
+  </span>
+  My balloon message
+</div>
+`;
+
+exports[`<Balloon /> When balloon is positioned on right renders correctly with offset at start 1`] = `
+<div
+  className="rc-balloon"
+  style={
+    Object {
+      "backgroundColor": "black",
+      "border": "1px solid black",
+      "color": "white",
+      "padding": "5px",
+      "position": "relative",
+    }
+  }
+>
+  <span
+    className="rc-balloon-arrow"
+    style={
+      Object {
+        "height": "20px",
+        "position": "absolute",
+        "right": "100%",
+        "top": "calc(0 - 10px)",
+        "width": "10px",
+        "zIndex": 10,
+      }
+    }
+  >
+    <svg
+      height={20}
+      style={
+        Object {
+          "verticalAlign": "top",
+        }
+      }
+      width={10}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <polygon
+        fill="black"
+        points="10,20 0,10 10,0"
+      />
+      <polyline
+        fill="transparent"
+        points="10,20 0,10 10,0"
+        stroke="black"
+      />
+    </svg>
+  </span>
+  My balloon message
+</div>
+`;
+
+exports[`<Balloon /> When balloon is positioned on top renders correctly with default props 1`] = `
+<div
+  className="rc-balloon"
+  style={
+    Object {
+      "backgroundColor": "black",
+      "border": "1px solid black",
+      "color": "white",
+      "padding": "5px",
+      "position": "relative",
+    }
+  }
+>
+  <span
+    className="rc-balloon-arrow"
+    style={
+      Object {
+        "height": "10px",
+        "left": "calc(50% - 10px)",
+        "position": "absolute",
+        "top": "100%",
+        "width": "20px",
+        "zIndex": 10,
+      }
+    }
+  >
+    <svg
+      height={10}
+      style={
+        Object {
+          "verticalAlign": "top",
+        }
+      }
+      width={20}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <polygon
+        fill="black"
+        points="0,0 10,10 20,0"
+      />
+      <polyline
+        fill="transparent"
+        points="0,0 10,10 20,0"
+        stroke="black"
+      />
+    </svg>
+  </span>
+  My balloon message
+</div>
+`;
+
+exports[`<Balloon /> When balloon is positioned on top renders correctly with offset at end 1`] = `
+<div
+  className="rc-balloon"
+  style={
+    Object {
+      "backgroundColor": "black",
+      "border": "1px solid black",
+      "color": "white",
+      "padding": "5px",
+      "position": "relative",
+    }
+  }
+>
+  <span
+    className="rc-balloon-arrow"
+    style={
+      Object {
+        "height": "10px",
+        "left": "calc(100% - 10px)",
+        "position": "absolute",
+        "top": "100%",
+        "width": "20px",
+        "zIndex": 10,
+      }
+    }
+  >
+    <svg
+      height={10}
+      style={
+        Object {
+          "verticalAlign": "top",
+        }
+      }
+      width={20}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <polygon
+        fill="black"
+        points="0,0 10,10 20,0"
+      />
+      <polyline
+        fill="transparent"
+        points="0,0 10,10 20,0"
+        stroke="black"
+      />
+    </svg>
+  </span>
+  My balloon message
+</div>
+`;
+
+exports[`<Balloon /> When balloon is positioned on top renders correctly with offset at start 1`] = `
+<div
+  className="rc-balloon"
+  style={
+    Object {
+      "backgroundColor": "black",
+      "border": "1px solid black",
+      "color": "white",
+      "padding": "5px",
+      "position": "relative",
+    }
+  }
+>
+  <span
+    className="rc-balloon-arrow"
+    style={
+      Object {
+        "height": "10px",
+        "left": "calc(0 - 10px)",
+        "position": "absolute",
+        "top": "100%",
+        "width": "20px",
+        "zIndex": 10,
+      }
+    }
+  >
+    <svg
+      height={10}
+      style={
+        Object {
+          "verticalAlign": "top",
+        }
+      }
+      width={20}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <polygon
+        fill="black"
+        points="0,0 10,10 20,0"
+      />
+      <polyline
+        fill="transparent"
+        points="0,0 10,10 20,0"
+        stroke="black"
+      />
+    </svg>
+  </span>
+  My balloon message
+</div>
+`;
+
+exports[`<Balloon /> When received a background color renders correctly 1`] = `
+<div
+  className="rc-balloon"
+  style={
+    Object {
+      "backgroundColor": "gray",
+      "border": "1px solid black",
+      "color": "white",
+      "padding": "5px",
+      "position": "relative",
+    }
+  }
+>
+  <span
+    className="rc-balloon-arrow"
+    style={
+      Object {
+        "height": "10px",
+        "left": "calc(50% - 10px)",
+        "position": "absolute",
+        "top": "100%",
+        "width": "20px",
+        "zIndex": 10,
+      }
+    }
+  >
+    <svg
+      height={10}
+      style={
+        Object {
+          "verticalAlign": "top",
+        }
+      }
+      width={20}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <polygon
+        fill="gray"
+        points="0,0 10,10 20,0"
+      />
+      <polyline
+        fill="transparent"
+        points="0,0 10,10 20,0"
+        stroke="black"
+      />
+    </svg>
+  </span>
+  My balloon message
+</div>
+`;
