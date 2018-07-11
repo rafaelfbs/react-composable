@@ -612,14 +612,14 @@ exports[`<Balloon /> When balloon is positioned on top renders correctly with of
 </div>
 `;
 
-exports[`<Balloon /> When received a background color renders correctly 1`] = `
+exports[`<Balloon /> When received colors renders correctly 1`] = `
 <div
   className="rc-balloon"
   style={
     Object {
       "backgroundColor": "gray",
-      "border": "1px solid black",
-      "color": "white",
+      "border": "1px solid gainsboro",
+      "color": "red",
       "padding": "5px",
       "position": "relative",
     }
@@ -655,7 +655,7 @@ exports[`<Balloon /> When received a background color renders correctly 1`] = `
       <polyline
         fill="transparent"
         points="0,0 10,10 20,0"
-        stroke="black"
+        stroke="gainsboro"
       />
     </svg>
   </span>

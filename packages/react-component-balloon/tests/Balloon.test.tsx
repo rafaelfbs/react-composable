@@ -3,13 +3,15 @@ import * as renderer from 'react-test-renderer';
 import Balloon from "../src";
 
 describe('<Balloon />', () => {
-    describe('When received a background color', () => {
+    describe('When received colors', () => {
         it('renders correctly', () => {
             const tree = renderer
                 .create(
                     <Balloon
                         message="My balloon message"
+                        balloonColor="red"
                         balloonBackgroundColor="gray"
+                        balloonBorderColor="gainsboro"
                     />
                 )
                 .toJSON();
