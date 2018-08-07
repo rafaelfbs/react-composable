@@ -1,13 +1,14 @@
 {
-  "name": "react-component-slide-button",
+  "name": "@react-composable/slide-button",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "tsc --rootDir ./src --outDir ./dist",
     "test": "jest",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "prepublishOnly": "npm run build && npm run test"
   },
   "keywords": [],
   "author": "",
