@@ -1,0 +1,241 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SlideButton /> with custom border width accepts custom "borderWidth" 1`] = `
+.c0 {
+  margin: 0;
+  padding: 0;
+  width: auto;
+  overflow: visible;
+  color: inherit;
+  font: inherit;
+  line-height: normal;
+  -webkit-font-smoothing: inherit;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  text-align: inherit;
+  background-size: 200% 100%;
+  background-image: linear-gradient( to right, #F0F0F0 50%, #026DB2 50% );
+  -webkit-transition: background-position 0.1s linear;
+  transition: background-position 0.1s linear;
+  border: none;
+  border-left: 1rem solid #026DB2;
+}
+
+.c0:hover {
+  background-position: -100% 0;
+}
+
+<button
+  className="c0"
+/>
+`;
+
+exports[`<SlideButton /> with custom border width accepts zero "borderWidth" 1`] = `
+.c0 {
+  margin: 0;
+  padding: 0;
+  width: auto;
+  overflow: visible;
+  color: inherit;
+  font: inherit;
+  line-height: normal;
+  -webkit-font-smoothing: inherit;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  text-align: inherit;
+  background-size: 200% 100%;
+  background-image: linear-gradient( to right, #F0F0F0 50%, #026DB2 50% );
+  -webkit-transition: background-position 0.1s linear;
+  transition: background-position 0.1s linear;
+  border: none;
+  border-left: 0 solid #026DB2;
+}
+
+.c0:hover {
+  background-position: -100% 0;
+}
+
+<button
+  className="c0"
+/>
+`;
+
+exports[`<SlideButton /> with custom colors accepts "primary" color 1`] = `
+.c0 {
+  margin: 0;
+  padding: 0;
+  width: auto;
+  overflow: visible;
+  color: inherit;
+  font: inherit;
+  line-height: normal;
+  -webkit-font-smoothing: inherit;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  text-align: inherit;
+  background-size: 200% 100%;
+  background-image: linear-gradient( to right, red 50%, #026DB2 50% );
+  -webkit-transition: background-position 0.1s linear;
+  transition: background-position 0.1s linear;
+  border: none;
+  border-left: 5px solid #026DB2;
+}
+
+.c0:hover {
+  background-position: -100% 0;
+}
+
+<button
+  className="c0"
+/>
+`;
+
+exports[`<SlideButton /> with custom colors accepts "secondary" color 1`] = `
+.c0 {
+  margin: 0;
+  padding: 0;
+  width: auto;
+  overflow: visible;
+  color: inherit;
+  font: inherit;
+  line-height: normal;
+  -webkit-font-smoothing: inherit;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  text-align: inherit;
+  background-size: 200% 100%;
+  background-image: linear-gradient( to right, #F0F0F0 50%, red 50% );
+  -webkit-transition: background-position 0.1s linear;
+  transition: background-position 0.1s linear;
+  border: none;
+  border-left: 5px solid red;
+}
+
+.c0:hover {
+  background-position: -100% 0;
+}
+
+<button
+  className="c0"
+/>
+`;
+
+exports[`<SlideButton /> with custom transition duration accepts custom "transitionDuration" 1`] = `
+.c0 {
+  margin: 0;
+  padding: 0;
+  width: auto;
+  overflow: visible;
+  color: inherit;
+  font: inherit;
+  line-height: normal;
+  -webkit-font-smoothing: inherit;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  text-align: inherit;
+  background-size: 200% 100%;
+  background-image: linear-gradient( to right, #F0F0F0 50%, #026DB2 50% );
+  -webkit-transition: background-position 0.5s linear;
+  transition: background-position 0.5s linear;
+  border: none;
+  border-left: 5px solid #026DB2;
+}
+
+.c0:hover {
+  background-position: -100% 0;
+}
+
+<button
+  className="c0"
+/>
+`;
+
+exports[`<SlideButton /> with default props renders correctly 1`] = `
+.c0 {
+  margin: 0;
+  padding: 0;
+  width: auto;
+  overflow: visible;
+  color: inherit;
+  font: inherit;
+  line-height: normal;
+  -webkit-font-smoothing: inherit;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  text-align: inherit;
+  background-size: 200% 100%;
+  background-image: linear-gradient( to right, #F0F0F0 50%, #026DB2 50% );
+  -webkit-transition: background-position 0.1s linear;
+  transition: background-position 0.1s linear;
+  border: none;
+  border-left: 5px solid #026DB2;
+}
+
+.c0:hover {
+  background-position: -100% 0;
+}
+
+<button
+  className="c0"
+/>
+`;
+
+exports[`<SlideButton /> with different orientation accepts "left" orientation 1`] = `
+.c0 {
+  margin: 0;
+  padding: 0;
+  width: auto;
+  overflow: visible;
+  color: inherit;
+  font: inherit;
+  line-height: normal;
+  -webkit-font-smoothing: inherit;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  text-align: inherit;
+  background-size: 200% 100%;
+  background-image: linear-gradient( to right, #F0F0F0 50%, #026DB2 50% );
+  -webkit-transition: background-position 0.1s linear;
+  transition: background-position 0.1s linear;
+  border: none;
+  border-left: 5px solid #026DB2;
+}
+
+.c0:hover {
+  background-position: -100% 0;
+}
+
+<button
+  className="c0"
+/>
+`;
+
+exports[`<SlideButton /> with different orientation accepts "right" orientation 1`] = `
+.c0 {
+  margin: 0;
+  padding: 0;
+  width: auto;
+  overflow: visible;
+  color: inherit;
+  font: inherit;
+  line-height: normal;
+  -webkit-font-smoothing: inherit;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  text-align: inherit;
+  background-size: 200% 100%;
+  background-image: linear-gradient( to left, #026DB2 50%, #F0F0F0 50% );
+  -webkit-transition: background-position 0.1s linear;
+  transition: background-position 0.1s linear;
+  border: none;
+  border-right: 5px solid #026DB2;
+}
+
+.c0:hover {
+  background-position: 100% 0;
+}
+
+<button
+  className="c0"
+/>
+`;
