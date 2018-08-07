@@ -33,24 +33,3 @@ storiesOf('Balloon', module)
             </ButtonContent>
         </SlideButton>
     ));
-// .add('with position', () => (
-//     <Balloon
-//         message={text('message', 'Some message')}
-//         balloonArrowPosition={select('position', ['top', 'right', 'bottom', 'left'], 'top')}
-//         balloonArrowPositionOffset={text('offset', "50%")}
-//     />
-// ))
-// .add('with colors', () => (
-//     <Balloon
-//         message={text('message', 'Some message')}
-//         balloonColor={text('color', 'black')}
-//         balloonBackgroundColor={text('background color', '#f9f9f9')}
-//         balloonBorderColor={text('border color', '#cecece')}
-//     />
-// ))
-// .add('with custom style', () => (
-//     <Balloon
-//         message={text('message', 'Some message')}
-//         balloonStyle={object('balloon style', {display: "inline"})}
-//     />
-// ));
