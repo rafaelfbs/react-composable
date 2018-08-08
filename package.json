@@ -17,7 +17,10 @@
     "@types/react-test-renderer": "~16.0.2",
     "babel-core": "^6.26.3",
     "babel-runtime": "^6.26.0",
+    "codecov": "^3.0.4",
     "jest": "^23.4.0",
+    "jest-junit": "^5.1.0",
+    "jest-simple-dot-reporter": "^1.0.2",
     "jest-styled-components": "^5.0.1",
     "lerna": "^3.0.0-rc.0",
     "react-dom": "~16.4.0",
@@ -29,7 +32,7 @@
   },
   "scripts": {
     "test": "jest packages/.*/tests",
-    "test:ci": "jest --ci --maxWorkers=4 packages/.*/tests"
+    "test:ci": "jest --ci --maxWorkers=4 packages/.*/tests --reporters jest-simple-dot-reporter jest-junit && codecov"
   },
   "repository": {
     "type": "git",
