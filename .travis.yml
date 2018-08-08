@@ -1,8 +1,11 @@
 language: node_js
-
 node_js:
   - 8.11.3
   - 10.8.0
-
+env:
+  global:
+  - secure: w9qwX+x9WYevuYW69ptZaDBaEYHUDUh1+b7iy5LqYEI4nw8YeODNMkjKOdI3LgGyrtoDeNd2aBD/dOD5ljTOQNdmNv92nlT5Y4uvofilO9ODOIVS5o2gFwHOLkQbsA+hjJyQtNqyLoKp9FfnCx2sZOfkodScMrSrVto6tWWwiwH3+uvr3WhSuKqtOVWa2jV9YZo7UJk9aAfbtNfsdZLuz3oGnTzPcLJ8GlXfyjRZAIOXlKOudUPHQDczAFH5shd1GS243wgM5H9kGt5rsQiW9jpvxd2d6K2QTm4LCagRQ17RToWhWXjAUagR/7n7Pk6zFGIKkINqPTzVYTO7RT4R8BZiMFee+4NnUVUJqGVy8eg0/KzAqdTG6TaUanh8U3rFGvmmG32Qd/0FL+YylvKx9iNfLH8kEhdkFnPLfDYqqbUjr67WWpYG3WuNfNHwFjHdvQUBNASPh3UdNuUIrjgkr/HHzniw+Dg07+/R+sS8XGAse8C78CiCrTIdDok0a0e5C61NMdKp6+QthKHucRBtbkZI6sKzbd4hrTctgWbs3gf4+heffO01JXOA1KdQoPsOZbx3KFvkoe7JN2GLU6pbdQZbFNQuUDAXUcDQoA+x4v8aatgyDGFutaPGfLqVe0qX0Zhru0JLKX6xsy05ojNQzG+OTouVatVNkAE8H1fx9bI=
+before_install:
+- echo "//registry.npmjs.org/:_authToken=\${NPM_TOKEN}" > .npmrc
 script:
   - yarn run test:ci
