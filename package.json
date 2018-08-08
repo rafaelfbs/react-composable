@@ -32,7 +32,7 @@
   },
   "scripts": {
     "test": "jest packages/.*/tests",
-    "test:ci": "jest -i --coverage --ci --maxWorkers=4 packages/.*/tests --reporters jest-simple-dot-reporter jest-junit && codecov"
+    "test:ci": "jest --coverage --ci --maxWorkers=4 packages/.*/tests --reporters jest-simple-dot-reporter jest-junit && codecov"
   },
   "repository": {
     "type": "git",
